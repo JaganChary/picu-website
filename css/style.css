@@ -2825,10 +2825,8 @@ p {
   
 }
 
-
-/* 
- .item {
-   display: flex;
-   
- } */
+.flex-para {
+  display: flex;
+  align-items: stretch;
+}
  
