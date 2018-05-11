@@ -2832,6 +2832,10 @@ p {
   align-items: stretch;
 }
 
+/* .middle {
+  display: flex;
+  align-items: center;
+} */
 /* .bg-white {
   background-color: white;
 } */
