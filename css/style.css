@@ -71,7 +71,9 @@
   1. Global | 1.1 Body
 -------------------------------------------------------------------------------*/
 body {
-  overflow: hidden; }
+  overflow: hidden;
+  background-color: #f4f4f4 !important;
+}
   body.loaded {
     overflow-x: hidden;
     overflow-y: scroll; }
@@ -700,7 +702,7 @@ p {
 .our-department {
   padding: 102px 0px 110px; }
   .our-department .nav-pills li {
-    background: #f4f4f4;
+    background: #fff;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     margin-top: 1px;
@@ -851,7 +853,7 @@ p {
 ----------------------- */
 .our-services {
   padding: 104px 0px 47px;
-  background: #f4f4f4; }
+  background: #fff; }
   .our-services .top-text h2 {
     margin-bottom: 3px; }
   .our-services .services-box {
@@ -1091,7 +1093,7 @@ p {
 ----------------------- */
 .recent-post {
   padding: 105px 0px 81px;
-  background: #f4f4f4; }
+  background: #fff; }
   .recent-post .recent-post-carousel.owl-theme .item {
     position: relative;
     bottom: 10px; }
@@ -2829,4 +2831,10 @@ p {
   display: flex;
   align-items: stretch;
 }
+
+/* .bg-white {
+  background-color: white;
+} */
+
+
  
