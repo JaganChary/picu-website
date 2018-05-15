@@ -312,7 +312,7 @@ p {
  2.2 Section - Oppoinment Form
 ----------------------- */
 .home-v2 .appoinment-form {
-  bottom: -180px;s
+  bottom: -180px;
   position: relative;
   margin-top: 0px; }
   .home-v2 .appoinment-form .appoinment-form-fields {
@@ -1846,7 +1846,7 @@ p {
       padding-right: 20px;
       display: inline-block; }
       .contact-page-form .appoinment-form .contact-form-fields .form-group .form-control.message-area {
-        /* max-width: 676px; */
+        max-width: 1198px;
         min-height: 140px; }
       .contact-page-form .appoinment-form .contact-form-fields .form-group.textarea-formgroup {
         min-height: 162px; }
@@ -2278,11 +2278,12 @@ p {
   .home-page-banner .image-caption {
     padding-top: 60px; }
     .home-page-banner .image-caption h1 {
-      font-size: 40px;
+      font-size: 0px;
       line-height: 40px;
       margin-bottom: 20px; }
 
-      @media only screen and max-width
+      
+      
     .home-page-banner .image-caption .search-form {
       margin-top: 45px;
       min-width: 700px; }
@@ -2553,7 +2554,7 @@ p {
         padding-left: 0px;
         padding-right: 0px; }
       .appoinment .appoinment-form .no-l-padding {
-        padding-left: 0px;
+        padding-left: 6em;
         padding-right: 0px; }
   .our-department {
     padding: 50px 0px; }
@@ -2835,4 +2836,8 @@ p {
   .flex-para {
     display: flex;
     align-items: stretch;
+}
+.div-flex {
+  display: flex;
+  justify-content: center;
 }
