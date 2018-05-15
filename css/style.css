@@ -1831,9 +1831,11 @@ p {
 3.20 Section - Conatct Page Form 
 ----------------------- */
 .contact-page-form {
-  padding-bottom: 54px; }
+  
+  padding-bottom: 34px;
+}
+
   .contact-page-form .appoinment-form {
-    bottom: 52px;
     display: inline-block;
     padding: 0px;
     position: relative;
@@ -1844,7 +1846,7 @@ p {
       padding-right: 20px;
       display: inline-block; }
       .contact-page-form .appoinment-form .contact-form-fields .form-group .form-control.message-area {
-        max-width: 676px;
+        /* max-width: 676px; */
         min-height: 140px; }
       .contact-page-form .appoinment-form .contact-form-fields .form-group.textarea-formgroup {
         min-height: 162px; }
@@ -2771,6 +2773,7 @@ p {
     margin-bottom: 5px;
     padding: 5px;
     margin-left: 1.5em;
+    text-align: left;
   }
 
 /* Giving styles to specialists */
@@ -2823,22 +2826,7 @@ p {
   }
 } 
 
-@media only screen and (max-width: 551px) {
-  
+  .flex-para {
+    display: flex;
+    align-items: stretch;
 }
-
-.flex-para {
-  display: flex;
-  align-items: stretch;
-}
-
-/* .middle {
-  display: flex;
-  align-items: center;
-} */
-/* .bg-white {
-  background-color: white;
-} */
-
-
- 
