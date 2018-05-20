@@ -138,12 +138,12 @@
                             You can download the resource below according to the platform
                         </p>
                         <br>
-                        <a href="#" class="btn btn-default btn-flex">Download for Windows
+                        <a data-toggle="modal" data-target="#emailInputModal" class="btn btn-default btn-flex">Download for Windows
                             <p>
                                 <i class="fa fa-windows" style="color: white"></i>
                             </p>
                         </a>
-                        <a href="#" class="btn btn-default btn-flex">Download for Mac
+                        <a data-toggle="modal" data-target="#emailInputModal" class="btn btn-default btn-flex">Download for Mac
                             <p>
                                 <i class="fa fa-apple" style="color: white"></i>
                             </p>
@@ -171,6 +171,33 @@
             </div>
         </div>
     </section>
+
+    <!-- BOOTSTRAP MODAL FOR EMAIL VERIFICATION -->
+    <div class="modal" tabindex="-1" role="dialog" id="emailInputModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                    <h5 class="modal-title" style="color: black !important">Enter Email</h5>
+                    
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">Email is required to continue the download process.</small>
+                    </div>
+                    <p style="color:red" id="emailVerificationMsg"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" onclick="verifyEmail()">Submit</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
     <script type="text/javascript" src="js/formValidation.min.js"></script>
@@ -180,6 +207,7 @@
     <script type="text/javascript" src="js/bootstrap-datepicker.min.js"></script>
     <script type="text/javascript" src="js/premedi_custom.js"></script>
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/validateEmail.js"></script>
 </body>
 
 </html>
